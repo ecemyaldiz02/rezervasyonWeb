@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url("img/back.jpg");
+	background-size: cover;
+	font-size: 25px;
+	color: #063EED;
+	
+}
+.Menü{
+	width: 1920px;
+	height:50px;
+	background-color:#E7B6D6;
+	margin-bottom: auto;
+	text-align: center;
+}
+.Menü ul li{
+	float: left;
+	list-style-type: none;
+}
+.Menü ul li a{
+	
+	color:deeppink;
+	font-size: 17px;
+	text-decoration: none;
+	display: block;
+	width: 246.666667px;
+	height: 50px;
+	line-height:50px;
+	text-align: center;
+	border-bottom: 1px inset pink;
+}
+.Menü ul li a:hover{
+	background-color:#8E00CB;
+	color:#FFFF;
+}
+#ucuslar-content{
+	position: absolute;
+	z-index: 1;
+	display: none;
+	margin-top: -15px;
+	margin-left: 10px;
+	width: 100px;
+}
+.ucuslar-li:hover #ucuslar-content{
+	display: block;
+}
+#oteller-content{
+	position: absolute;
+	z-index: 1;
+	display: none;
+	margin-top: -15px;
+	margin-left: -10px;
+	width: 100px;
+}
+.oteller-li:hover #oteller-content{
+	display: block;
+}
+#tatilönerileri-content{
+	position: absolute;
+	z-index: 1;
+	display: none;
+	margin-top: -15px;
+	margin-left: -10px;
+	width: 100px;
+}
+.tatilönerileri-li:hover #tatilönerileri-content{
+	display: block;
+}
+form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+h2{
+	position: absolute;
+	top: 150px;
+	right: 600px;
+	color: black;
+}
+form{
+	position: absolute;
+	top: 250px;
+	right: 660px;
+	color: black;
+	font-size: 20px;
+}
+img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	position:absolute;
+	top:0px;
+    left: 0px;
+}

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Yurt İçi Rezervasyon</title>
+<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+<div class="Menü">
+	<ul>
+		<li><a href="../WWW/index.html">Anasayfa</a></li>
+	    <li class="ucuslar-li">
+			<a href="#">Uçuşlar</a>
+			
+			<div id="ucuslar-content">
+				<ul>
+					<li style="display: block;"><a href="../yurticiucuslar/index.html">Yurt İçi Uçuşlar</a></li>
+					<li style="display: block;"><a href ="../yurtdısıucuslar/index.html">Yurt Dışı Uçuşlar</a></li>
+				</ul>
+				
+			</div>
+			
+		</li> 
+	    <li class="oteller-li">
+			
+		<a href="#">Oteller</a>
+		<div id="oteller-content">
+			<ul>
+				<li style="display: block;"><a href="../yurticioteller/index.html">Yurt İçi Oteller</a></li>
+				<li style="display: block;"><a href="../yurtdisi oteller/index.html">Yurt Dışı Oteller</a></li>
+			
+			
+			
+			</ul>
+			
+			
+			</div>
+		
+		</li>
+		<li class="tatilönerileri-li">
+			<a href="#">Tatil Önerileri</a>
+		<div id="tatilönerileri-content">
+			<ul>
+				<li style="display: block;"><a href="../kis tatili/index.html">Kış Tatili</a></li>
+		    <li style="display: block;"><a href="../yilbasi tatili/index.html">Yılbaşı Tatili</a></li>
+			<li style="display: block;"><a href="../fırsattatili/index.html">Fırsat Tatilleri</a></li>
+			<li style="display: block"><a href="../gemitatili/index.html">Gemi Tatilleri</a></li>
+			</ul>
+			
+			</div>
+		
+		</li>
+		<li><a href="../rezervasyon/index.html">Rezervasyon</a></li>
+        <li><a href="../hakkımızda/index.html">Hakkımızda</a></li>
+		
+	</ul>
+	
+	</div>
+
+        <h1>Yurt İçi Uçak Rezervasyon Sayfası</h1>
+   
+
+    <section>
+        <label for="from">Nereden:</label>
+        <select id="from" name="from">
+            <option value="adana">Adana</option>
+            <option value="ağrı">Ağrı</option>
+            <option value="alanya">Alanya</option>
+			<option value="amasya">Amasya</option>
+			<option value="ankara">Ankara</option>
+			<option value="antalya">Antalya</option>
+			<option value="balıkesir">Balıkesir</option>
+			<option value="bursa">Bursa</option>
+			<option value="çanakkale">Çanakkale</option>
+			<option value="izmir">İzmir</option>
+			<option value="istanbul">İstanbul</option>
+			
+        </select>
+
+        <label for="to">Nereye:</label>
+        <select id="to" name="to">
+			
+			<option value="almanya">Almanya</option>
+            <option value="ABD">ABD</option>
+			<option value="arjantin">Arjantin</option>
+            <option value="arnavutluk">Arnavutluk</option>
+			<option value="avusturya">Avusturya</option>
+            <option value="birleşik krallık">Birleşik Krallık</option>
+			<option value="danimarka">Danimarka</option>
+			<option value="dominik cumhuriyeti">Dominik Cumhuriyeti</option>
+			<option value="ekvador">Ekvador</option>
+		    <option value="el salvador">El Salvador</option>
+			<option value="finlandiya">Rusya</option>
+			<option value="fransa">Azerbaycan</option>
+			<option value="güney kore">Güney Kore</option>
+			<option value="gürcistan">Gürcistan</option>
+			<option value="hollanda">Hollanda</option>
+			<option value="hong kong">Hong Kong</option>
+			<option value="iran">İran</option>
+			<option value="irlanda">İrlanda</option>
+			<option value="ispanya">İspanya</option>
+			<option value="isvec">İsveç</option>
+			<option value="italya">İtalya</option>
+			<option value="izlanda">İzlanda</option>
+			
+        </select>
+
+        <label for="date">Tarih:</label>
+        <input type="date" id="date" name="date">
+
+        <label for="passengers">Yolcu Sayısı:</label>
+        <input type="number" id="passengers" name="passengers" min="1" value="1">
+
+        <button type="button">Uçuşu Rezerve Et</button>
+    </section>
+	<img src="../WWW/img/a.jpg" id="site-logo">
+</body>
+</html>
